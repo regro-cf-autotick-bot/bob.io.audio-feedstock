@@ -5,7 +5,7 @@ Home: http://github.com/bioidiap/bob.io.audio
 
 Package license: GNU General Public License v3 (GPLv3)
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Audio I/O support for Bob
 
