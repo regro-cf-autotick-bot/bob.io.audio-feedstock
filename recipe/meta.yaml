@@ -10,7 +10,7 @@ source:
   md5: 831c4f8711949ce5f4180072d01494d4
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
@@ -26,7 +26,6 @@ requirements:
   - bob.io.matlab
   - sox
   - pkg-config
-  - gcc     # [linux]
 
   run:
   - python
@@ -37,7 +36,6 @@ requirements:
   - bob.io.base
   - bob.io.matlab
   - sox
-  - libgcc  # [linux]
 
 test:
   imports:
