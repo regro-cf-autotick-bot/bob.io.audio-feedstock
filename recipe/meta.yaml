@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: bob.io.audio
@@ -7,10 +7,10 @@ package:
 source:
   fn: bob.io.audio-{{ version }}.zip
   url: https://pypi.python.org/packages/source/b/bob.io.audio/bob.io.audio-{{ version }}.zip
-  md5: 831c4f8711949ce5f4180072d01494d4
+  md5: 5c025adb4b48c2f4b4f4a5c0f6d70b0e
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win]
 
 requirements:
