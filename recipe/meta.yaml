@@ -10,7 +10,7 @@ source:
   md5: 5c025adb4b48c2f4b4f4a5c0f6d70b0e
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
   - bob.io.base
   - bob.io.matlab
   - boost 1.61.*
-  - sox
+  - sox 14.4.2
   - pkg-config
 
   run:
@@ -36,7 +36,7 @@ requirements:
   - bob.io.base
   - bob.io.matlab
   - boost 1.61.*
-  - sox
+  - sox 14.4.2
 
 test:
   imports:
